@@ -42,7 +42,7 @@
 </FontObject>
 </fonts>
 <columns>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Batch_Id" id="2D934D39-E13D-7F96-4A02-BDEFDE90CEE6">
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Batch_Run_Id" id="2D934D39-E13D-7F96-4A02-BDEFDE90CEE6">
 <createdBy>anooj</createdBy>
 <createdTime>2015-06-14 16:39:43 UTC</createdTime>
 <generatorID>D32FAB60-9EFB-F8B1-6356-CF717281B62D</generatorID>
@@ -112,6 +112,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Batch_Id" id="20C18419-8E3E-46C9-87B6-E5CE4D23E615">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>70C49370-4796-C652-1998-F800C2E13A7D</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Batch_Id1" id="B0CAD30E-F058-2F91-CD90-1B0B248B781C">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>CF13AE53-0D2A-DE69-4E78-F99CCCA34F63</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<delegate>AEF984FE-112E-D523-790F-3F3D9DCD72A7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A71FA550-FA37-0E2A-1C41-9D424DEBA6DE" referredColumn="AEF984FE-112E-D523-790F-3F3D9DCD72A7"/>
+</associations>
+</Column>
 </columns>
 <indexes>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E1CE5506-E408-FD1E-A9A9-38E1A26204AB" name="Batch_PK">
@@ -123,6 +149,16 @@
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="2D934D39-E13D-7F96-4A02-BDEFDE90CEE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="253256E1-EAFB-18F5-F3B7-43A02A9DBF25" name="FK_BATCH_RUN">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>F2B337E6-9E5E-8DAD-8A34-F25E391559AE</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="B0CAD30E-F058-2F91-CD90-1B0B248B781C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

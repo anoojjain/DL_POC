@@ -41,7 +41,7 @@
 </FontObject>
 </fonts>
 <columns>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Job_Id" id="A030580E-866B-4B5E-F198-E293DB0966AE">
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Job_Run_Id" id="A030580E-866B-4B5E-F198-E293DB0966AE">
 <createdBy>anooj</createdBy>
 <createdTime>2015-06-14 16:39:43 UTC</createdTime>
 <generatorID>A28A5E88-1F4D-7753-D2F0-055992929176</generatorID>
@@ -100,7 +100,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Batch_Id" id="52BC2983-773A-5EFD-272D-CF607CB95471">
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Batch_Run_Id" id="52BC2983-773A-5EFD-272D-CF607CB95471">
 <createdBy>anooj</createdBy>
 <createdTime>2015-06-14 16:39:43 UTC</createdTime>
 <generatorID>4241B717-A294-3D5B-337C-9CA9A085336E</generatorID>
@@ -113,6 +113,22 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B701FEC3-BE86-0C33-D19B-9328064AE2CA" referredColumn="2D934D39-E13D-7F96-4A02-BDEFDE90CEE6"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Job_Id" id="6D1F4699-CCFF-3377-C25F-98CB80B0602E">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>C33BC164-5489-37A4-6B03-CED6159E1920</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<delegate>C88B63DE-4CA5-8C8C-60C6-EFAC50466175</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5985CD22-A71D-4D9E-9312-105F7DB497AC" referredColumn="C88B63DE-4CA5-8C8C-60C6-EFAC50466175"/>
 </associations>
 </Column>
 </columns>
@@ -136,6 +152,16 @@
 <indexState>Foreign Key</indexState>
 <indexColumnUsage>
 <colUsage columnID="52BC2983-773A-5EFD-272D-CF607CB95471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="70FD01A7-1AB2-0CF6-5D0F-1DCEA5AA5E77" name="fk_Job_run">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>8405763D-D800-35C9-D970-9B52919AE2E2</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="6D1F4699-CCFF-3377-C25F-98CB80B0602E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

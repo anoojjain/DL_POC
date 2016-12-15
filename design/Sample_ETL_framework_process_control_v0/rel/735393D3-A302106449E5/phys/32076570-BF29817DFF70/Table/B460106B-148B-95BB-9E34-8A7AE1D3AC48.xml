@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Invoke_Script" id="B460106B-148B-95BB-9E34-8A7AE1D3AC48">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Task_Id" id="0A9B07B1-B09B-3438-86ED-397485D9BC2C">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Description" id="38BEB6C1-D410-34EF-46F9-1719F42348F4">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Invoke_Type" id="9384F07B-D226-B172-F67B-45032423B7A7">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Invoke_Script" id="B367674C-C57D-D832-011E-163184D47283">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TASK_INVOKE" id="84C07872-D0C8-E9D3-C63B-3F2BD859B3EB">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

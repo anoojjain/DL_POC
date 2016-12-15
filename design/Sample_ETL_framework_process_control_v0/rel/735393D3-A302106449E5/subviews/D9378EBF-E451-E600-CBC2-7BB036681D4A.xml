@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_For_Event_task_processing_information" id="D9378EBF-E451-E600-CBC2-7BB036681D4A">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>532F9AFC-8C07-D570-2BEB-9F08C577770D</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="237E6693-59B3-DFA7-CCDE-42337B3D2D09" otype="Table" vid="7E6EF3BC-F9BD-D169-10E0-233FC727098D">
+<bounds x="703" y="126" width="170" height="245"/>
+<generatorID>B4505F56-CFBD-F256-5D6A-5D8A7E04DBD7</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="CC81DBB3-C222-AFA7-C17D-6C4946FD9E29" otype="Table" vid="D69D8ADD-1A96-0CA8-4EAC-D926557055D7">
+<bounds x="366" y="140" width="170" height="131"/>
+<generatorID>405C3662-8473-18C9-57B4-25F765E8A3DF</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F311F4AC-E744-F66F-1CA9-F099FCB2B58D" otype="Table" vid="9CD3A096-EBE4-6FDB-CF1B-789AA1B0B476">
+<bounds x="41" y="140" width="170" height="131"/>
+<generatorID>D7693CD0-7868-A17F-5B90-AE400FF97592</generatorID>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="A81BA85D-0398-C55A-464F-978FD757DCAE" otype="FKIndexAssociation" vid_source="D69D8ADD-1A96-0CA8-4EAC-D926557055D7" vid_target="7E6EF3BC-F9BD-D169-10E0-233FC727098D">
+<lineWidth>1</lineWidth>
+<points>
+<point x="451" y="271"/>
+<point x="873" y="618"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="B701FEC3-BE86-0C33-D19B-9328064AE2CA" otype="FKIndexAssociation" vid_source="9CD3A096-EBE4-6FDB-CF1B-789AA1B0B476" vid_target="D69D8ADD-1A96-0CA8-4EAC-D926557055D7">
+<lineWidth>1</lineWidth>
+<points>
+<point x="211" y="205"/>
+<point x="576" y="595"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

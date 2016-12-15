@@ -41,7 +41,7 @@
 </FontObject>
 </fonts>
 <columns>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Task_Id" id="FF5260D5-22EF-0032-2D13-1B85270107C1">
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Task_Run_Id" id="FF5260D5-22EF-0032-2D13-1B85270107C1">
 <createdBy>anooj</createdBy>
 <createdTime>2015-06-14 16:39:43 UTC</createdTime>
 <generatorID>336949B5-C582-F38E-8864-94E8CE001912</generatorID>
@@ -160,7 +160,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Job_Id" id="A3AF80AC-7629-6E2D-210D-22DDB528FAA6">
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Job_Run_Id" id="A3AF80AC-7629-6E2D-210D-22DDB528FAA6">
 <createdBy>anooj</createdBy>
 <createdTime>2015-06-14 16:39:43 UTC</createdTime>
 <generatorID>E8E396CA-F38F-F4DD-8A60-B7D072BF11F8</generatorID>
@@ -189,6 +189,34 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="A79F2CD8-9625-066D-58AA-A9932050B19F" referredColumn="2CDD5B4F-E3C3-E91C-28A4-AFE7C0B5EC05"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Feed_Name" id="D9045788-9A79-3171-C024-C65E27762A32">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>4C6C90DB-755D-46C7-7365-A9520104C382</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Task_Id" id="BA3D50B0-FE43-9557-74F2-4C3041C63036">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>F042C13B-0A73-FB11-457E-862660CFA552</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<delegate>3DA839CB-AE54-2D7F-3EA0-26357D166C6D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77BE700C-87C2-2508-691A-4DABC96B914A" referredColumn="3DA839CB-AE54-2D7F-3EA0-26357D166C6D"/>
 </associations>
 </Column>
 </columns>
@@ -222,6 +250,16 @@
 <indexState>Foreign Key</indexState>
 <indexColumnUsage>
 <colUsage columnID="A8B2BCF4-9212-651C-58E3-2CF2F33D54E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F83AA731-862D-81C0-2823-31664691666D" name="FK_Task_run">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>390720F2-21EA-ACFE-3041-91AB64190424</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="BA3D50B0-FE43-9557-74F2-4C3041C63036"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

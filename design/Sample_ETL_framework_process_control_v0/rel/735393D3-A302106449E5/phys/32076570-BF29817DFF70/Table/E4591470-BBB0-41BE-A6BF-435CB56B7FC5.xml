@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Task_Parameter" id="E4591470-BBB0-41BE-A6BF-435CB56B7FC5">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Parameter_Value" id="1320BEE6-FDA7-4C75-4EE1-347C0429070D">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Task_Id" id="596D27D4-0CBF-AD03-1487-FF55CD682E67">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Parameter_Name" id="69636CD8-7D51-58A5-0CB7-B7B2AA5CD8E1">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_Task_parameter" id="C1328C7E-40EF-2155-5A8A-D4C58FB943A1">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

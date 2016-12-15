@@ -65,22 +65,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Job_Id" id="5D1A94FC-1EF4-9684-66B4-2CE3B22B4624">
-<createdBy>anooj</createdBy>
-<createdTime>2015-06-14 15:11:47 UTC</createdTime>
-<generatorID>483D9896-6944-8DC5-EF0C-CAC27E4A49FB</generatorID>
-<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
-<delegate>C88B63DE-4CA5-8C8C-60C6-EFAC50466175</delegate>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B33D87C4-D6D9-588B-3B0B-E1BF9CF62E1E" referredColumn="C88B63DE-4CA5-8C8C-60C6-EFAC50466175"/>
-</associations>
-</Column>
 </columns>
 <indexes>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3C4AC3CC-CCAF-2995-08D8-1EAC9060D22F" name="Job_Level_Info_PK">
@@ -92,16 +76,6 @@
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="B7FD3A4D-3CF6-9DC2-90A4-8857C539C9C2"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C8B933B3-69F0-9633-4320-3DA9D04A915A" name="FK_Job_Level">
-<createdBy>anooj</createdBy>
-<createdTime>2015-06-14 15:11:47 UTC</createdTime>
-<generatorID>84D1D38A-7DD9-8BC2-4680-ADD660CBA86B</generatorID>
-<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<indexColumnUsage>
-<colUsage columnID="5D1A94FC-1EF4-9684-66B4-2CE3B22B4624"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

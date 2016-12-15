@@ -17,19 +17,22 @@
    <object objectType="Table" objectID="57E866E1-71D8-5A58-6665-BC5E3CA91CFD" name="Time_Dim" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="39429366-6E4C-AB86-C086-73740867B4C1" name="FK_Application_Batch" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="4AC084F7-4B86-4368-0A80-B0E7F0C0160F" name="FK_Application_Dim" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A71FA550-FA37-0E2A-1C41-9D424DEBA6DE" name="FK_BATCH_RUN" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="3C93A325-4B4E-1AF7-FCD7-4B98AD9AA231" name="FK_Batch_Dim" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="ED173419-DD64-D403-BBDD-1F1DD4C6132B" name="FK_Batch_Job" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="B701FEC3-BE86-0C33-D19B-9328064AE2CA" name="FK_Batch_Job_run" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="6D465F34-F498-56CA-C3A9-58AB1778B339" name="FK_Date_DIM" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="8FCC78D3-D9F8-DA2B-839E-7F5740AF4D6D" name="FK_Job_Dim" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="B33D87C4-D6D9-588B-3B0B-E1BF9CF62E1E" name="FK_Job_Level" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D3F870D7-4D4B-CA84-617E-6EAA416C81E5" name="FK_Job_Level" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="B42276E4-9260-0B77-718A-2B68A23129E1" name="FK_Job_Task" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="A81BA85D-0398-C55A-464F-978FD757DCAE" name="FK_Job_task_tun" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="99419735-E5AC-DB86-9CAD-09021223D90F" name="FK_Source_task" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="62CFB2CB-E41C-C652-BCA7-06082569CFD3" name="FK_TASK_INVOKE" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="5C28304C-40E1-D91A-8D62-849FF7A0BA08" name="FK_Task_Dim" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="51601D27-F1B1-B208-47A3-B1A2F7AA4D54" name="FK_Task_parameter" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="77BE700C-87C2-2508-691A-4DABC96B914A" name="FK_Task_run" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C15296D1-4012-58CE-C8FC-2BA270E24460" name="FK_Time_Dim" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="D399ECA6-594C-3C80-0794-453AFC542370" name="FK_source_dim" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="A79F2CD8-9625-066D-58AA-A9932050B19F" name="Fk_Source_Task_run" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5985CD22-A71D-4D9E-9312-105F7DB497AC" name="fk_Job_run" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

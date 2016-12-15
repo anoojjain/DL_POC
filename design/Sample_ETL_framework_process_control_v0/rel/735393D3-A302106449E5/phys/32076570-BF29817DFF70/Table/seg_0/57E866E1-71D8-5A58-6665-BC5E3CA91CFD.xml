@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Time_Dim" id="57E866E1-71D8-5A58-6665-BC5E3CA91CFD" directorySegmentName="seg_0">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Minute_of_Hour" id="19E5CA94-CF0B-C584-716C-1CB3ADCAAE91">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Time_Id" id="45BA7505-A765-1043-72D1-A0C7B8B703FE">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Hour_of_Day" id="750FDEC8-14EC-F146-3FFF-E60B6486F125">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Time_Dim_PK" id="7C3918A8-1F3F-487F-9475-69A420888CF6">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

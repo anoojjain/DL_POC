@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Batch_Run" id="F311F4AC-E744-F66F-1CA9-F099FCB2B58D" directorySegmentName="seg_0">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<logging>YES</logging>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Application_Id" id="08307F2F-1C50-8134-D42C-606700AA6807">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Batch_Id" id="20C18419-8E3E-46C9-87B6-E5CE4D23E615">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Batch_Run_Id" id="2D934D39-E13D-7F96-4A02-BDEFDE90CEE6">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Name" id="3A2BD162-377A-5F53-35B6-B9F79F12B9A1">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="End_Time" id="4CB0A282-39DD-095B-5049-43A2076DDD2C">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Status" id="69AA66AE-1807-0A5B-A982-9B51A022A7C2">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Start_Time" id="6D2FF5E2-6B9F-25B6-0A1C-6BAEEF2043AD">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Batch_Id1" id="B0CAD30E-F058-2F91-CD90-1B0B248B781C">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BATCH_RUN" id="253256E1-EAFB-18F5-F3B7-43A02A9DBF25">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Batch_PK" id="E1CE5506-E408-FD1E-A9A9-38E1A26204AB">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:56:13 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<sortedRows>SORTED</sortedRows>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

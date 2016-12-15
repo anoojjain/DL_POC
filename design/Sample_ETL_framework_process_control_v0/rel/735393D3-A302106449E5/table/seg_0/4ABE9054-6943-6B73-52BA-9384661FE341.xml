@@ -103,6 +103,22 @@
 <colAssociation fkAssociation="ED173419-DD64-D403-BBDD-1F1DD4C6132B" referredColumn="AEF984FE-112E-D523-790F-3F3D9DCD72A7"/>
 </associations>
 </Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Level" id="71052803-0AA4-EC2D-A228-522762EB6261">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>79B68980-7EE4-469C-272C-28E2C7226A2A</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<delegate>B7FD3A4D-3CF6-9DC2-90A4-8857C539C9C2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3F870D7-4D4B-CA84-617E-6EAA416C81E5" referredColumn="B7FD3A4D-3CF6-9DC2-90A4-8857C539C9C2"/>
+</associations>
+</Column>
 </columns>
 <indexes>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="577C9BCC-7647-097C-9F03-F4A516EDB443" name="Job_PK">
@@ -124,6 +140,16 @@
 <indexState>Foreign Key</indexState>
 <indexColumnUsage>
 <colUsage columnID="B41CAE69-AC15-4E10-9561-7835A8B7236C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5EBC0F93-D889-703B-7C80-DFF0EDC62B1E" name="FK_Job_Level">
+<createdBy>anooj</createdBy>
+<createdTime>2016-12-15 17:53:33 UTC</createdTime>
+<generatorID>84D1D38A-7DD9-8BC2-4680-ADD660CBA86B</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="71052803-0AA4-EC2D-A228-522762EB6261"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

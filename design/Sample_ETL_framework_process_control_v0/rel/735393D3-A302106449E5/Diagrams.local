@@ -1,4 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="main_view" objectID="C4AB93E1-D470-93A4-8614-A3B5EF0580BB" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="4C27B185-7351-F524-F341-4DB5975788B9" name="From_LM_Base_Entities_for_meta_data" visible="false"/>
+   <object objectType="sub_view" objectID="D9378EBF-E451-E600-CBC2-7BB036681D4A" name="From_LM_For_Event_task_processing_information" visible="false"/>
+   <object objectType="sub_view" objectID="6DFF53DC-3584-0B9D-C8E4-A7DCE1A1751B" name="From_LM_Star_Schema_for_dashboard_reporting_n_analysis" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="13FA566C-B2D1-E61F-E7B6-3FBE0CABF664" name="Date_Dim" seqName="seg_0"/>
+   <object objectType="Table" objectID="237E6693-59B3-DFA7-CCDE-42337B3D2D09" name="Task_Run" seqName="seg_0"/>
+   <object objectType="Table" objectID="32F18968-81BC-68C9-723B-5D2EB815C11B" name="TASK_PARAMETERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3CA9A38B-5852-76DC-E2F1-4E4B7F851788" name="Task_Run_Fact" seqName="seg_0"/>
+   <object objectType="Table" objectID="4ABE9054-6943-6B73-52BA-9384661FE341" name="Job" seqName=""/>
+   <object objectType="Table" objectID="4DE185CF-78EB-02EC-542F-8EF21EDA69AD" name="Source" seqName=""/>
+   <object objectType="Table" objectID="57E866E1-71D8-5A58-6665-BC5E3CA91CFD" name="Time_Dim" seqName="seg_0"/>
+   <object objectType="Table" objectID="922E7C77-CF2B-760C-C629-1AF2E2D4522F" name="Batch" seqName=""/>
+   <object objectType="Table" objectID="B460106B-148B-95BB-9E34-8A7AE1D3AC48" name="Invoke_Script" seqName=""/>
+   <object objectType="Table" objectID="C6BF783F-FCDE-0750-64B7-C4E642E4ADF7" name="Task" seqName=""/>
+   <object objectType="Table" objectID="CC81DBB3-C222-AFA7-C17D-6C4946FD9E29" name="Job_Run" seqName="seg_0"/>
+   <object objectType="Table" objectID="E0CBB7CD-5405-7848-7EA2-FE754FB399D7" name="Application" seqName=""/>
+   <object objectType="Table" objectID="E4591470-BBB0-41BE-A6BF-435CB56B7FC5" name="Task_Parameter" seqName=""/>
+   <object objectType="Table" objectID="F311F4AC-E744-F66F-1CA9-F099FCB2B58D" name="Batch_Run" seqName="seg_0"/>
+   <object objectType="Table" objectID="F7E3C448-D54D-4B14-83FA-38F546032F26" name="Job_Level_Info" seqName=""/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

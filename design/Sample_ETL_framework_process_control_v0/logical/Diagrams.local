@@ -2,6 +2,7 @@
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="F4D9FB33-261E-1B63-AC6F-2EF4A7367818" name="Logical" visible="true"/>
    <object objectType="sub_view" objectID="704F133F-72EC-10C0-1591-4903A35011C4" name="Base_Entities_for_meta_data" visible="true"/>
-   <object objectType="sub_view" objectID="532F9AFC-8C07-D570-2BEB-9F08C577770D" name="For_Event_task_processing_information" visible="true"/>
-   <object objectType="sub_view" objectID="1433D10A-81CB-A859-8F79-E20794B0A126" name="Star_Schema_for_dashboard_reporting_n_analysis" visible="true"/>
+   <object objectType="sub_view" objectID="532F9AFC-8C07-D570-2BEB-9F08C577770D" name="For_Event_task_processing_information" visible="false"/>
+   <object objectType="sub_view" objectID="88193728-01B1-C7FD-70E6-68D5242EC250" name="Logical - SubView_1v1" visible="false"/>
+   <object objectType="sub_view" objectID="1433D10A-81CB-A859-8F79-E20794B0A126" name="Star_Schema_for_dashboard_reporting_n_analysis" visible="false"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

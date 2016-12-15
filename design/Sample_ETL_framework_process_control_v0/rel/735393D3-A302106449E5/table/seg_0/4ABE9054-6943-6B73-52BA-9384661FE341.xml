@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="4ABE9054-6943-6B73-52BA-9384661FE341" directorySegmentName="seg_0" name="Job">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>9FB84D48-6D3F-B6D9-D0C5-25A09464C22C</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<pkName>Job_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Job_Id" id="C88B63DE-4CA5-8C8C-60C6-EFAC50466175">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>CB7588AC-4FBC-5F39-864F-506869765D12</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Name" id="8B79CA45-D973-E51D-83C3-173F2129C049">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>7DBA2826-FCA8-343B-B0A1-50577D9800D5</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Description" id="56B9807C-9A12-DF41-9396-090E3BF22E07">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>1520B342-183C-0CD5-FE32-12CBA9AE5F08</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>743D593A-5504-D1A0-F448-8F75DDACD9C8</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Exec_Order" id="565C8856-BFEB-48F8-D201-64EFF9C84066">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>70FF16E8-BDC1-01E2-FBC9-30876D58D5D0</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Batch_Id" id="B41CAE69-AC15-4E10-9561-7835A8B7236C">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:11:47 UTC</createdTime>
+<generatorID>69D5794F-4ABC-E3FA-8B22-3E8FCFC27E6D</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<delegate>AEF984FE-112E-D523-790F-3F3D9DCD72A7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED173419-DD64-D403-BBDD-1F1DD4C6132B" referredColumn="AEF984FE-112E-D523-790F-3F3D9DCD72A7"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="577C9BCC-7647-097C-9F03-F4A516EDB443" name="Job_PK">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:11:47 UTC</createdTime>
+<generatorID>0AACE78B-6A45-1209-373D-09F6674FC8F8</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C88B63DE-4CA5-8C8C-60C6-EFAC50466175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="1B4DB2B7-0949-166A-3E13-328B5AF89D1B" name="FK_Batch_Job">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:11:47 UTC</createdTime>
+<generatorID>2D19A177-3DF8-60B6-594A-F96327A23F21</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="B41CAE69-AC15-4E10-9561-7835A8B7236C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

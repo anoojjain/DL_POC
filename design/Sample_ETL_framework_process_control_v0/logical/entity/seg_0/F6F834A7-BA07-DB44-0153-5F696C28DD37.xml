@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F6F834A7-BA07-DB44-0153-5F696C28DD37" directorySegmentName="seg_0" name="Task Parameter">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 04:27:59 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Parameter Name" id="68E642B6-8FEE-428F-6C7D-3D9F1C830EB4">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 14:47:32 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Parameter Value" id="9AC2BE0B-B5BA-FE25-3B59-BA61C1CA5042">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 14:47:41 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Task Id" id="4E6EF93F-FE23-BC4F-2DCA-D47821E92145">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:10:44 UTC</createdTime>
+<generatorID>D68A3974-ED01-FBDF-8759-DFAFCB5D6E5F</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C7ED5EE4-361C-832F-6870-5CCD02C8AEE8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+</attributes>
+</Entity>

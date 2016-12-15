@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C824B887-8A18-D0F6-547E-4310AA7C5418">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-12 09:48:27 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framwork_process_control</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

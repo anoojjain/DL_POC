@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="A07ABE83-B77F-030B-76F4-B32DB73C5CBE" directorySegmentName="seg_0" name="Date Dim">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:23:48 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<pkName>Date Dim PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Date Id" id="57BAA099-5A00-CAD1-6C52-5958BBD5DA93">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:24:05 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Date" id="E018A158-C24F-4D31-ABE2-0336E40D4B9C">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:32:00 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>1B78EA24-5127-BF71-0D8C-6D153169D6C8</domain>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="85C18DB7-13B2-ACEB-089F-FEDFC246B8EF" name="Date Dim PK">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:24:12 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57BAA099-5A00-CAD1-6C52-5958BBD5DA93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

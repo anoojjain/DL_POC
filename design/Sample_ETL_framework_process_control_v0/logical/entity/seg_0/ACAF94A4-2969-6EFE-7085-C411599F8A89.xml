@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="ACAF94A4-2969-6EFE-7085-C411599F8A89" directorySegmentName="seg_0" name="Batch Run">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:14:47 UTC</createdTime>
+<comment>This entity will maintain various batch based on the frequency of data movement.&lt;br/&gt;For Example Hourly/ daily / weekly jobs are clubbed to one batch respectively based on the frequnecy. </comment>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<pkName>Batch PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Batch Run Id" id="D32FAB60-9EFB-F8B1-6356-CF717281B62D">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:14:47 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Name" id="D24448F6-A6F9-3016-ACD2-99E24D37EBF9">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:14:47 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Application Id" id="E68CFF0D-0C8C-C6FD-E9A5-04090D675E6D">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:14:47 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Start Time" id="BA5DD959-6686-1B3A-4C80-13F2DC8FC5A0">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:15:34 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>1B78EA24-5127-BF71-0D8C-6D153169D6C8</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="End Time" id="D4E16CFE-3000-8BF8-5CBD-CDAC95CD770E">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:15:48 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>1B78EA24-5127-BF71-0D8C-6D153169D6C8</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Status" id="2C8DEDFE-3C64-80FC-064D-C4E102DC005C">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:16:00 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Batch Id" id="70C49370-4796-C652-1998-F800C2E13A7D">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-17 10:40:24 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Batch Id1" id="CF13AE53-0D2A-DE69-4E78-F99CCCA34F63">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-17 11:29:31 UTC</createdTime>
+<generatorID>F2B337E6-9E5E-8DAD-8A34-F25E391559AE</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E9536231-16BD-52F7-1D1C-B2D776B015B5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="9B2A19AD-99DA-B43D-30E0-78F3F0F75A2B" name="Batch PK">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:14:47 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D32FAB60-9EFB-F8B1-6356-CF717281B62D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

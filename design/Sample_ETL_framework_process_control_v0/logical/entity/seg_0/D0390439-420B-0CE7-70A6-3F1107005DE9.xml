@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="D0390439-420B-0CE7-70A6-3F1107005DE9" directorySegmentName="seg_0" name="Task Run">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:07:31 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<pkName>Task PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Task Run Id" id="336949B5-C582-F38E-8864-94E8CE001912">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:07:31 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Name" id="2E1966DE-D451-9904-F698-1F82F0D57E0A">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:10:32 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Start Time" id="D110CC5A-6ABD-12B8-708A-8DC261D209CA">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:08:24 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>1B78EA24-5127-BF71-0D8C-6D153169D6C8</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="End Time" id="F0A1B9C0-9D73-2E75-1906-D20C82417AE9">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:09:12 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>1B78EA24-5127-BF71-0D8C-6D153169D6C8</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Status" id="6156E2A7-00A1-CB5E-DDF7-55BA76C0FF70">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:09:17 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Process Date" id="1180CCD9-7708-3DE1-77C4-F53BA2907293">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:07:31 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>1B78EA24-5127-BF71-0D8C-6D153169D6C8</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Source Count" id="775DA6CF-7631-3ACC-7379-8FC9ADA9071B">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:07:31 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Actual Target Count" id="86160944-E843-C8C9-4578-FADFD0E81493">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:07:31 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Error Count" id="F8CFDEA9-80D8-8342-C871-81CA91877461">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:07:31 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Reconcililation Status" id="93FEC93A-F8E1-0D21-73B1-1E736DA737E4">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:12:21 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Job Run Id" id="E8E396CA-F38F-F4DD-8A60-B7D072BF11F8">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:28:05 UTC</createdTime>
+<generatorID>183ED33E-333A-7F6B-8970-FC14AEDEA15F</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<referedAttribute>A28A5E88-1F4D-7753-D2F0-055992929176</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Source ID" id="CE924EDE-4B3D-48B5-EA53-9E7E2F26C940">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:28:25 UTC</createdTime>
+<generatorID>E996DAA1-C676-DAF2-49B9-15B51E90D3FB</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4CAB6BBE-BCA3-7DA9-D978-263F97DA71B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Feed Name" id="4C6C90DB-755D-46C7-7365-A9520104C382">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-17 08:08:29 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Task Id" id="F042C13B-0A73-FB11-457E-862660CFA552">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-17 11:30:13 UTC</createdTime>
+<generatorID>390720F2-21EA-ACFE-3041-91AB64190424</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C7ED5EE4-361C-832F-6870-5CCD02C8AEE8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="AA5CC5CF-E717-7831-1274-4E74EBED1DC3" name="Task PK">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 16:07:31 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>336949B5-C582-F38E-8864-94E8CE001912</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

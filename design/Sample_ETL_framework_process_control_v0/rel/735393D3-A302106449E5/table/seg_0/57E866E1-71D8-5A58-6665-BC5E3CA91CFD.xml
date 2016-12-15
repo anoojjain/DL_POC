@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="57E866E1-71D8-5A58-6665-BC5E3CA91CFD" directorySegmentName="seg_0" name="Time_Dim">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 17:11:11 UTC</createdTime>
+<generatorID>50C1404C-5018-1982-FE8B-CD9402FEA0D8</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<pkName>Time_Dim_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Time_Id" id="45BA7505-A765-1043-72D1-A0C7B8B703FE">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 17:11:11 UTC</createdTime>
+<generatorID>D502E3A6-DF6C-8E07-95A2-475F2B22F212</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Hour_of_Day" id="750FDEC8-14EC-F146-3FFF-E60B6486F125">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 17:11:11 UTC</createdTime>
+<generatorID>5B2FB785-F55A-08BB-DFA4-BCC649720721</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Minute_of_Hour" id="19E5CA94-CF0B-C584-716C-1CB3ADCAAE91">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 17:11:11 UTC</createdTime>
+<generatorID>EA8180E2-0C3A-6FCB-5112-79EB2BA4AE7E</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7C3918A8-1F3F-487F-9475-69A420888CF6" name="Time_Dim_PK">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 17:11:11 UTC</createdTime>
+<generatorID>DBB8A9D2-096F-E1A6-6069-519A7B75251D</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="45BA7505-A765-1043-72D1-A0C7B8B703FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

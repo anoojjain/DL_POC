@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="ED173419-DD64-D403-BBDD-1F1DD4C6132B" directorySegmentName="seg_0" name="FK_Batch_Job">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:11:47 UTC</createdTime>
+<generatorID>2D19A177-3DF8-60B6-594A-F96327A23F21</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<containerWithKeyObject>4ABE9054-6943-6B73-52BA-9384661FE341</containerWithKeyObject>
+<deleteRule>CASCADE</deleteRule>
+<localFKIndex>1B4DB2B7-0949-166A-3E13-328B5AF89D1B</localFKIndex>
+<keyObject>A33F59D8-5C91-D808-07A8-6C33AF2D8ABB</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

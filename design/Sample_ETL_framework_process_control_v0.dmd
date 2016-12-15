@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sample_ETL_framework_process_control_v0" id="78933E42-058A-070F-99BE-1BF702D18F41" version="3.5">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-12 09:48:26 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framwork_process_control</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>78933E42-058A-070F-99BE-1BF702D18F41</designId>
+</OSDM_Design>

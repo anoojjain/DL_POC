@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="B460106B-148B-95BB-9E34-8A7AE1D3AC48" directorySegmentName="seg_0" name="Invoke_Script">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>C05BDBB4-D2CD-8378-D306-163C747EF008</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Invoke_Type" id="9384F07B-D226-B172-F67B-45032423B7A7">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>983A9B51-5AD7-6CCD-F35A-BB4226AAE734</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Invoke_Script" id="B367674C-C57D-D832-011E-163184D47283">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>735918D1-6D36-4F46-0A2A-7E5F1BF439E1</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C3D9CACC-E616-388B-B667-F25D3BD020BE</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Description" id="38BEB6C1-D410-34EF-46F9-1719F42348F4">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:08:28 UTC</createdTime>
+<generatorID>5A686680-DE7C-50BB-0984-E6D6D65E24D1</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>743D593A-5504-D1A0-F448-8F75DDACD9C8</domain>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Task_Id" id="0A9B07B1-B09B-3438-86ED-397485D9BC2C">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:11:47 UTC</createdTime>
+<generatorID>B84D8F42-A63A-9FE1-6F25-40B8E45E508D</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>42E0C3DE-FF1C-B35F-DAEA-39DA117ED555</domain>
+<delegate>3DA839CB-AE54-2D7F-3EA0-26357D166C6D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62CFB2CB-E41C-C652-BCA7-06082569CFD3" referredColumn="3DA839CB-AE54-2D7F-3EA0-26357D166C6D"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="84C07872-D0C8-E9D3-C63B-3F2BD859B3EB" name="FK_TASK_INVOKE">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 15:11:47 UTC</createdTime>
+<generatorID>BF21027F-340F-43A9-0E58-1AF1C1EA68C2</generatorID>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="0A9B07B1-B09B-3438-86ED-397485D9BC2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

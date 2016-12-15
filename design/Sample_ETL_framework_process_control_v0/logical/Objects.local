@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="C8418C63-226C-5E94-8E19-7494C8C0C066" name="Application" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FACDF662-EA03-C5F1-956F-068BFD95CA6B" name="Batch" seqName="seg_0"/>
+   <object objectType="Entity" objectID="ACAF94A4-2969-6EFE-7085-C411599F8A89" name="Batch Run" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A07ABE83-B77F-030B-76F4-B32DB73C5CBE" name="Date Dim" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C05BDBB4-D2CD-8378-D306-163C747EF008" name="Invoke Script" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9FB84D48-6D3F-B6D9-D0C5-25A09464C22C" name="Job" seqName="seg_0"/>
+   <object objectType="Entity" objectID="70B536CF-DF7F-AF42-0101-E974E7916DCB" name="Job Level Info" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3551D566-1D3A-464E-90A2-2670EFCDEE32" name="Job Run" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AF61C27D-37C8-30F7-CC9E-4B6EF66AB846" name="Source" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2BD87D71-DA42-D13F-2CAC-E82922013D00" name="Task" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F6F834A7-BA07-DB44-0153-5F696C28DD37" name="Task Parameter" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D0390439-420B-0CE7-70A6-3F1107005DE9" name="Task Run" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7DB37594-E3C6-D75A-2F9F-2476D4FED8EF" name="Task Run Fact" seqName="seg_0"/>
+   <object objectType="Entity" objectID="50C1404C-5018-1982-FE8B-CD9402FEA0D8" name="Time Dim" seqName="seg_0"/>
+   <object objectType="Relation" objectID="70E834EA-4023-6632-DC7A-FDA626DD05C9" name="FK_Application_Batch" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CEC99949-8D89-B39D-E383-F142281C60E2" name="FK_Application_Dim" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F2B337E6-9E5E-8DAD-8A34-F25E391559AE" name="FK_BATCH_RUN" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A81A9641-7AE2-DF92-5E41-B0CAB690D38F" name="FK_Batch_Dim" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2D19A177-3DF8-60B6-594A-F96327A23F21" name="FK_Batch_Job" seqName="seg_0"/>
+   <object objectType="Relation" objectID="96271BC0-2917-CFB1-FBDA-27363070747D" name="FK_Batch_Job_run" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A4D9020B-7CC5-B25F-AC57-C1DBC8EA5AD2" name="FK_Date_DIM" seqName="seg_0"/>
+   <object objectType="Relation" objectID="001ABDFE-E482-FB42-02A3-36901FE9D429" name="FK_Job_Dim" seqName="seg_0"/>
+   <object objectType="Relation" objectID="84D1D38A-7DD9-8BC2-4680-ADD660CBA86B" name="FK_Job_Level" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CD7A7B16-90A2-15BF-0E80-4E16334041E0" name="FK_Job_Task" seqName="seg_0"/>
+   <object objectType="Relation" objectID="183ED33E-333A-7F6B-8970-FC14AEDEA15F" name="FK_Job_task_tun" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6D180801-C02E-7227-591C-F897E5496FC6" name="FK_Source_task" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BF21027F-340F-43A9-0E58-1AF1C1EA68C2" name="FK_TASK_INVOKE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A13B473B-F56F-49C3-A62D-026582B45461" name="FK_Task_Dim" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D68A3974-ED01-FBDF-8759-DFAFCB5D6E5F" name="FK_Task_parameter" seqName="seg_0"/>
+   <object objectType="Relation" objectID="390720F2-21EA-ACFE-3041-91AB64190424" name="FK_Task_run" seqName="seg_0"/>
+   <object objectType="Relation" objectID="876BB123-1C7D-A9AD-DC46-29C4C1DE34F7" name="FK_Time_Dim" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3EE99610-1957-17E7-E99B-FD0678B3E9D3" name="FK_source_dim" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E996DAA1-C676-DAF2-49B9-15B51E90D3FB" name="Fk_Source_Task_run" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8405763D-D800-35C9-D970-9B52919AE2E2" name="fk_Job_run" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

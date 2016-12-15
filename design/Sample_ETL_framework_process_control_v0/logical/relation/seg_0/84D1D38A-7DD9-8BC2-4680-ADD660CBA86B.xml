@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Job_Level" id="84D1D38A-7DD9-8BC2-4680-ADD660CBA86B" directorySegmentName="seg_0">
+<createdBy>anooj</createdBy>
+<createdTime>2015-06-14 14:55:39 UTC</createdTime>
+<ownerDesignName>Sample_ETL_framework_process_control_v0</ownerDesignName>
+<engineerTo>
+<item key="735393D3-DF36-08E3-911F-A302106449E5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9FB84D48-6D3F-B6D9-D0C5-25A09464C22C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>70B536CF-DF7F-AF42-0101-E974E7916DCB</targetEntity>
+<transferable>true</transferable>
+</Relation>
